@@ -1,0 +1,11 @@
+{
+    "lang": {
+        "en":{
+            "n1": "Not found",
+            "n2": "The page you're looking for can't be found"
+        },
+        "es":{
+            "es1": "La página no esta disponible.",
+            "es2": "No encontramos la página que buscas."
+        }
+    }
