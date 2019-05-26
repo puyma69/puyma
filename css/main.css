@@ -32,9 +32,13 @@ div.principal {
     border-color: black
 }
 div.intro {
-    margin-left: 6vw;
     width: 76vw;
     height: 26vw;
+    margin-left: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-top: 14px;
 }
 div.moment {
     border-style: solid;
