@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 
 :root{
     --font_Roboto: 'Roboto', sans-serif;
     --font_OpenSans: 'Open Sans', sans-serif;
     --font_Lato: 'Lato', sans-serif;
-}
-html  {
-    font-family: var(--font_Roboto);
+    --font_Ralewey: 'Raleway', sans-serif;
 }
 h1 {
-    font-family: var(--font_Lato);
+    font-family: var(--font_Ralewey);
     font-size: 40px;
 }
