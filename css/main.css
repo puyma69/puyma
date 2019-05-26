@@ -21,8 +21,8 @@ h1 {
 }
 h1#intro {
     width: 700px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h1#aoa {
     width: 1060px;
@@ -51,8 +51,7 @@ div.intro {
     width: 76vw;
     height: 26vw;
     margin-left: 6vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
     padding-top: 32px;
     padding-left: 50px;
 }
