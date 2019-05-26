@@ -1,8 +1,12 @@
+:root{
+    --font_roboto: 'Roboto', sans-serif;
+}
+
 h1 {
-    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-family: var(--font_roboto);
     font-size: 40px;
 }
 
 h2 {
-    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-family: var(--font_roboto);
 }
