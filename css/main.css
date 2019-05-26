@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-
 :root{
     --font_Roboto: 'Roboto', sans-serif;
     --font_OpenSans: 'Open Sans', sans-serif;
     --font_Lato: 'Lato', sans-serif;
     --font_Ralewey: 'Raleway', sans-serif;
 }
-
 html {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-family: var(--font_Ralewey);
+    font-size: 34mm;
+}
+p {
+    font-family: var(--font_Ralewey);
+}
+#principal {
     margin: auto;
     width: calc(100% - 6vw);
     height: 100%;
     border-width: 2mm;
     border-style: dotted;
-    border-color: black;
-}
-
-h1 {
-    font-family: var(--font_Ralewey);
-    font-size: 34mm;
-}
-
-p {
-    font-family: var(--font_Ralewey);
+    border-color: black
 }
