@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto:500&display=swap');
+
 :root{
-    --font_roboto: 'Roboto', sans-serif;
+    --font_Roboto: 'Roboto', sans-serif;
+    --font_OpenSans: 'Open Sans', sans-serif;
+    --font_Lato: 'Lato', sans-serif;
 }
 html  {
-    font-family: var(--font_roboto);
+    font-family: var(--font_Roboto);
 }
 h1 {
-    font-family: var(--font_roboto);
+    font-family: var(--font_Roboto);
     font-size: 40px;
 }
