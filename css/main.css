@@ -15,8 +15,8 @@ h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
 }
-h1#intro {
-    margin-left: (9vw);
+#intro {
+    margin-left: (6vw);
 }
 p {
     font-family: var(--font_Ralewey);
