@@ -47,7 +47,7 @@ div.intro {
 }
 div.moment {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2mm;
     border-color: blue;
     border-bottom: 0px;
 }
