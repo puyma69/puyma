@@ -28,8 +28,8 @@ div.principal {
     border-style: dotted;
     border-color: black
 }
-.intro {
-    margin-left: (6vw);
+div.intro {
+    margin-left: 6vw;
     width: 78vw;
     height: 26vw;
 }
