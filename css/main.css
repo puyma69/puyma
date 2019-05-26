@@ -38,7 +38,7 @@ h3#intro {
     margin-left: 26px;
 }
 button#butt {
-
+    border: none;
 }
 div.principal {
     margin-left: auto;
