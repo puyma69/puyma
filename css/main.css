@@ -15,9 +15,6 @@ h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
 }
-#intro {
-    margin-left: (6vw);
-}
 p {
     font-family: var(--font_Ralewey);
 }
@@ -30,4 +27,7 @@ div.principal {
     border-width: 2mm;
     border-style: dotted;
     border-color: black
+}
+div.intro {
+    margin-left: (6vw);
 }
