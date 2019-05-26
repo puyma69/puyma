@@ -36,7 +36,7 @@ div.intro {
     width: 76vw;
     height: 26vw;
 }
-.moment {
+div.moment {
     border-style: solid;
     border-width: 2mm;
     border-color: blue;
