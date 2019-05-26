@@ -19,7 +19,7 @@ h1 {
     font-size: 34mm;
     margin-top: 12 0 0 4px;
 }
-h1.intro {
+h1#intro {
     width: 700px;
 }
 p {
