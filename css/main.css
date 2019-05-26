@@ -21,6 +21,8 @@ h1 {
 }
 h1#intro {
     width: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h1#aoa {
     width: 1060px;
@@ -35,7 +37,7 @@ h3#intro {
     margin-left: 7px;
 }
 button#butt {
-    
+
 }
 div.principal {
     margin-left: auto;
