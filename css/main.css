@@ -6,6 +6,12 @@
     --font_Lato: 'Lato', sans-serif;
     --font_Ralewey: 'Raleway', sans-serif;
 }
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
