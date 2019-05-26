@@ -4,6 +4,7 @@
     --font_OpenSans: 'Open Sans', sans-serif;
     --font_Lato: 'Lato', sans-serif;
     --font_Ralewey: 'Raleway', sans-serif;
+    --full_width: 100%;
 }
 html {
     margin: auto;
@@ -13,6 +14,9 @@ html {
 h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
+}
+h1#intro {
+    margin-left: (18%);
 }
 p {
     font-family: var(--font_Ralewey);
