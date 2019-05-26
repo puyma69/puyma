@@ -24,6 +24,7 @@ h1#intro {
 }
 h1#aoa {
     width: 1060px;
+    overflow: visible;
 }
 p {
     font-family: var(--font_Ralewey);
