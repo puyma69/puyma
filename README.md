@@ -1,2 +1,2 @@
-# puyma-XYZ
+# puyma(.xyz)
 There is nothing to read here...
