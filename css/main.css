@@ -10,3 +10,7 @@ h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
 }
+
+p {
+    font-family: var(--font_Ralewey);
+}
