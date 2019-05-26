@@ -1,12 +1,12 @@
 //jquery here ---------------------
 
-var jq = $.noConflict();
+var jqy = $.noConflict();
 
-jq(document).ready(function(){
-    jq("button").click(function(){
-      jq.getJSON("https://puyma.xyz/src/lang.json", function(result){
-        jq.each(result, function(i, field){
-          jq("#aoa").append(field + " ");
+jqy(document).ready(function(){
+    jqy("button").click(function(){
+      jqy.getJSON("https://puyma.xyz/src/lang.json", function(result){
+        jqy.each(result, function(i, field){
+          jqy("#aoa").append(field + " ");
         });
       });
     });
