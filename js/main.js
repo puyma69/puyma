@@ -1,10 +1,12 @@
 //jquery here ---------------------
 
-$(document).ready(function(){
-    $("button").click(function(){
-      $.getJSON("https://puyma.xyz/src/lang.json", function(result){
-        $.each(result, function(i, field){
-          $("#aoa").append(field + " ");
+var jq = $.noConflict();
+
+jq(document).ready(function(){
+    jq("button").click(function(){
+      jq.getJSON("https://puyma.xyz/src/lang.json", function(result){
+        jq.each(result, function(i, field){
+          jq("#aoa").append(field + " ");
         });
       });
     });
