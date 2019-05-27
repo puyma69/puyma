@@ -16,7 +16,7 @@ a {
     color: blue;
 }
 a:hover {
-    color: bisque;
+    color: orangered;
 }
 h1 {
     font-family: var(--font_Ralewey);
