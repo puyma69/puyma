@@ -33,6 +33,9 @@ h1#aoa {
     width: 1060px;
     overflow: visible;
 }
+h1.la {
+    color: rgb(206, 56, 211);
+}
 p {
     font-family: var(--font_Ralewey);
 }
