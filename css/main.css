@@ -22,6 +22,7 @@ h1 {
     font-family: var(--font_Ralewey);
     font-size: 34mm;
     margin-top: 12 0 0 4px;
+    text-align: center;
 }
 h1#intro {
     width: 700px;
