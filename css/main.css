@@ -36,6 +36,7 @@ h1#aoa {
 }
 h1.la {
     color: rgb(206, 56, 211);
+    margin: auto;
 }
 p {
     font-family: var(--font_Ralewey);
