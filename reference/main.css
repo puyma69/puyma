@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+:root{
+    --font_OpenSans: 'Open Sans', sans-serif;
+    --font_Ralewey: 'Raleway', sans-serif;
+    --cc-rosat: rgba(231, 113, 113);
+    --cc-crema: rgb(144, 91, 230);
+    --cc-temporal: rgb(123, 209, 183);
+    --cc-textGrey: grey;
+    --cc-blackBorder: rgba(99, 99, 99, 0.377);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+h1, h2, h3 {
+    font-family: var(--font_Ralewey);
+    text-align: center;
+}
+h1 {
+    font-size: 34mm;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    color: var(--cc-crema);
+}
+.wrapper {
+    width: 100%;
+}
+.burger {
+    width: 100%;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    display: block;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.burgerMove .line1{
+    transform: rotate(-45deg) translate(-3px, 6px);
+}
+.burgerMove .line2 {
+    opacity: 0;
+}
+.burgerMove .line3 {
+    transform: rotate(45deg) translate(-3px, -6px);
+}
