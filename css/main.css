@@ -20,15 +20,18 @@ a:hover {
 }
 h1 {
     font-family: var(--font_Ralewey);
-    font-size: 34mm;
+    font-size: 22vh;
     margin-top: 12 0 0 4px;
-    text-align: center;
+    text-align: left;
 }
 h1#intro {
     width: 700px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    margin-left: 40px;
+}
+ul#intro {
+    margin-left: 40px;
 }
 h1#aoa {
     width: 1060px;
