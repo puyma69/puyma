@@ -1,78 +1,100 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-:root{
-    --font_Roboto: 'Roboto', sans-serif;
-    --font_OpenSans: 'Open Sans', sans-serif;
-    --font_Lato: 'Lato', sans-serif;
-    --font_Ralewey: 'Raleway', sans-serif;
-    --full_width: 100%;
+body {
+    margin: 0px;
+    color: grey;
 }
-html {
-    margin: auto;
-    width: 100%;
-    height: 100%;
+
+.element::-webkit-scrollbar { width: 0 !important }
+.element { overflow: -moz-scrollbars-none; }
+.element { -ms-overflow-style: none; }
+::-webkit-scrollbar-thumb { border: none;}
+::-webkit-scrollbar-track { box-shadow: none; border: none; }
+::-webkit-scrollbar { width: 0px; }
+
+.container {
+    display: flex;
+    align-items: stretch;
 }
-a {
-    text-decoration: none;
-    color: blue;
-}
-a:hover {
-    color: orangered;
-}
-h1 {
-    font-family: var(--font_Ralewey);
-    font-size: 22vh;
-    margin-top: 12 0 0 4px;
-    text-align: left;
-}
-h1#intro {
-    width: 700px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
-ul#intro {
-    margin-left: 40px;
-}
-h1#aoa {
-    width: 1060px;
-    overflow: visible;
-}
-h1.la {
-    color: rgb(206, 56, 211);
-    margin: auto;
-}
-p {
-    font-family: var(--font_Ralewey);
-}
-h3#intro {
-    margin-top: 72px;
-    margin-bottom: 0px;
-    margin-left: 7px;
-    margin-left: 26px;
-}
-button#butt {
+
+.container div {
     border: none;
+    padding: 0px;
+    font-size: calc(18px + 1.5vh);
+    font-family: sans-serif;
 }
-div.principal {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4vw;
-    width: 63vw;
-    height: 30vw;
+
+
+/* left container. content */
+.container .container-left {
+    /*flex: 2;*/
+    order: 1;
+    width: 60vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 30px;
+    overflow: hidden;
 }
-div.intro {
-    width: 74vw;
-    height: 26vw;
-    margin-left: 6vw;
-    margin-top: 50px;
-    padding-top: 32px;
-    padding-left: 50px;
+.container-left:hover {
+    overflow: auto;
 }
-div.moment {
-    border-style: solid;
-    border-width: 3mm;
-    border-color: blue;
-    border-bottom: 0px;
+
+.container .container-left h1 {
+    text-align: left;
+    text-indent: 38px;
+    line-height: 0.9;
+    font-size: 10.4vw;
+    font-weight: 800;
+    padding-left: 70px;
+    margin-top: 80px;
 }
-.small {font-size: 0.8em}
-li {list-style-type: none}
+
+.container .container-left p {
+    font-size: 28px;
+}
+
+
+/* right container. list */
+.container .container-right {
+        /*flex: 1; */
+        order: 2;
+        flex-direction: column;
+        width: 40vw;
+        background-color: #ffffff;
+        color: grey;
+        border-left-style: solid;
+        border-left-width: 2.6px;
+        border-left-color: grey;
+        padding-left: 36px;
+        overflow: hidden;
+        scroll-snap-type: y mandatory;
+}
+.container-right:hover {
+    overflow: auto;
+}
+
+.container-right .list {
+    margin-top: 100px;
+    margin-left: 12px;
+    height: 0px;
+    min-height: 0px;
+}
+
+.container .container-right .list-item {
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 70px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 2.6px;
+    text-indent: 36px;
+    margin-left: -48px;
+}
+
+.list-item p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: inherit;
+    padding: 34px 0px 12px 0px;
+    scroll-snap-align: start;
+    scroll-margin-top: 2.2px;
+}
