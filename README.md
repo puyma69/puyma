@@ -1,2 +1,2 @@
-# puyma(.xyz)
+# amyup.xyz
 There is nothing to read here...
