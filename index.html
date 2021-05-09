@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="./favicon.png">
-  <title>Nina Produccions</title>
+  <title>Puyma</title>
 
   <style>
     :root {
-      --bodyMargin: 16px;
+      --bodyMargin: 32px;
       --ninaSize: 52pt;
       --mainColor: #D1B7E5;
     }
@@ -18,24 +18,34 @@
     body {
       margin: 0px;
       padding: 0px;
-      min-height: calc(100vh - (2 * var(--bodyMargin)));
-      min-width: calc(100vw - (2* var(--bodyMargin)));
+      height: calc(100vh - (2 * var(--bodyMargin)));
+      width: calc(100vw - (2* var(--bodyMargin)));
       background-color: white;
-      border: 16px solid var(--mainColor);
+      border: var(--bodyMargin) solid var(--mainColor);
     }
 
-    c {
+    .c {
       display: flex;
-      margin-left: auto;
-      margin-right: auto;
+      flex-direction: column;
+      width: calc(100vw - var(--bodyMargin)*2);
+      height: calc(100vh - var(--bodyMargin)*2);
+      justify-content: space-evenly;
       text-align: center;
+      text-transform: uppercase;
+    }
+
+    .f {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 6em;
+      color: var(--mainColor);
     }
   </style>
 </head>
 
 <body>
   <div class="c">
-    <p>Nina</p>
+    <p class="f">Puyma</p>
   </div>
 </body>
 
