@@ -36,18 +36,18 @@
       flex-direction: column;
       width: calc(100vw - var(--bodyMargin)*2);
       height: calc(100vh - var(--bodyMargin)*2);
-      justify-content: space-evenly;
+      justify-content: center;
       text-align: center;
-      text-transform: uppercase;
+      text-transform: lowercase;
     }
 
     .f {
-      font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', Verdana, sans-serif;
+      font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
       font-size: 8vw;
       line-height: 52px;
       color: var(--mainColor);
       margin: 0px;
-      letter-spacing: 0.02vw;
+      letter-spacing: 0px;
     }
 
     .f::selection {
@@ -59,11 +59,18 @@
 
 <body>
   <div class="c">
-    <div>
-      <h1 class="f">Puyma</h1>
-      <h2 class="f">...</h2>
-    </div>
+    <img src="./puyma.png" alt="" style="height: 8vw; width: auto; align-self: center;">
+    <h2 class="f">...</h2>
   </div>
+  <!--
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+          src="https://player.vimeo.com/video/554957029?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          title="Red Car Scene | The Living End (1992)"></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+  -->
 </body>
 
 </html>
