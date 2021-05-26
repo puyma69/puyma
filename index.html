@@ -14,11 +14,21 @@
     :root {
       --bodyMargin: 32px;
       --mainColor: #D1B7E5;
+      --redColor: #A90A2E;
+      --blueColor: #2f4cce;
     }
 
     @font-face {
       font-family: 'Inter Black';
       src: url(./assets/inter-black.woff2);
+    }
+
+    .red {
+      color: var(--redColor) !important;
+    }
+
+    .blue {
+      color: var(--blueColor) !important;
     }
 
     body {
@@ -28,6 +38,7 @@
       width: calc(100vw - (2* var(--bodyMargin)));
       background-color: white;
       border: var(--bodyMargin) solid var(--mainColor);
+      color: var(--mainColor);
     }
 
     .c {
@@ -46,29 +57,29 @@
     .f {
       font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
       font-size: clamp(60px, 9vw, 150px);
-      color: var(--mainColor);
       margin: 0px;
       letter-spacing: 0px;
       line-height: normal;
+      text-transform: lowercase;
+      text-decoration: none;
+      color: inherit;
+      word-break: break-all;
+      text-align: left;
     }
 
     .f::selection {
       color: white;
       background-color: var(--mainColor);
     }
-
-    .f.red {
-      color: #A90A2E;
-    }
   </style>
 </head>
 
 <body>
   <div class="c">
-    <h2 class="f">tools</h2>
-    <h2 class="f red">scala</h2>
-    <h2 class="f">projects</h2>
-    <h2 class="f">movies</h2>
+    <h2 class="f"><a class="f" href="./tools/">eines</a></h2>
+    <h2 class="f red"><a class="f red" href="./scala/">scala</a></h2>
+    <h2 class="f"><a class="f" href="./projects/">projectes</a></h2>
+    <h2 class="f blue">pel·lícules</h2>
   </div>
 
 </body>
