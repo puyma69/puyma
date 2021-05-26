@@ -13,7 +13,6 @@
   <style>
     :root {
       --bodyMargin: 32px;
-      --ninaSize: 52pt;
       --mainColor: #D1B7E5;
     }
 
@@ -33,33 +32,42 @@
 
     .c {
       display: flex;
-      flex-direction: column;
-      width: calc(100vw - var(--bodyMargin)*2);
-      height: calc(100vh - var(--bodyMargin)*2);
-      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 0px;
+      column-gap: 40px;
+      padding-top: 4vw;
+      padding-left: max(var(--bodyMargin), 6vw);
+      padding-right: max(var(--bodyMargin), 6vw);
       text-align: center;
       text-transform: lowercase;
     }
 
     .f {
       font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
-      font-size: 8vw;
+      font-size: clamp(60px, 9vw, 150px);
       color: var(--mainColor);
       margin: 0px;
       letter-spacing: 0px;
+      line-height: normal;
     }
 
     .f::selection {
       color: white;
       background-color: var(--mainColor);
     }
+
+    .f.red {
+      color: #A90A2E;
+    }
   </style>
 </head>
 
 <body>
   <div class="c">
-    <img src="./assets/puyma.png" alt="" style="height: 8vw; width: auto; align-self: center;">
-    <h2 class="f">t</h2>
+    <h2 class="f">eines</h2>
+    <h2 class="f red">scala</h2>
+    <h2 class="f">projectes</h2>
   </div>
   <!--
       <div style="padding:56.25% 0 0 0;position:relative;"><iframe
