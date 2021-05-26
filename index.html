@@ -23,7 +23,7 @@
     }
 
     .red:hover {
-      color: var(--redColor) !important;
+      color: var(--redColor);
     }
 
     body {
@@ -41,14 +41,14 @@
       flex-direction: row;
       flex-wrap: wrap;
       row-gap: 0px;
-      column-gap: 40px;
+      column-gap: clamp(16px, 2vw, 32px);
       text-align: center;
       text-transform: lowercase;
     }
 
     .f {
       font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
-      font-size: clamp(44px, 9vw, 150px);
+      font-size: clamp(44px, 9vw, 88px);
       margin: 0px;
       letter-spacing: 0px;
       line-height: normal;
@@ -68,7 +68,7 @@
 
 <body>
   <div class="c">
-    <h2 class="f"><a class="f" href="./tools/">eines</a></h2>
+    <h2 class="f"><a class="f" href="https://tools.amyup.xyz">eines</a></h2>
     <h2 class="f red"><a class="f red" href="./scala/">scala</a></h2>
     <h2 class="f"><a class="f" href="./projects/">projectes</a></h2>
     <h2 class="f">pel·lícules</h2>
