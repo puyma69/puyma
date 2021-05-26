@@ -31,9 +31,14 @@
       padding: var(--bodyMargin);
       height: calc(100vh - var(--bodyMargin)*2);
       width: calc(100vw - var(--bodyMargin)*2 - 17px);
-      background-color: white;
       border: none;
+      background-color: white;
       color: var(--mainColor);
+    }
+
+    body::selection {
+      color: white;
+      background-color: var(--mainColor);
     }
 
     .c {
@@ -59,7 +64,8 @@
       text-align: left;
     }
 
-    .f::selection {
+    .f::selection,
+    .f:hover {
       color: white;
       background-color: var(--mainColor);
     }
@@ -71,7 +77,7 @@
     <h2 class="f"><a class="f" href="https://tools.amyup.xyz">eines</a></h2>
     <h2 class="f red"><a class="f red" href="./scala/">scala</a></h2>
     <h2 class="f"><a class="f" href="./projects/">projectes</a></h2>
-    <h2 class="f">pel·lícules</h2>
+    <h2 class="f">mood</h2>
   </div>
 
 </body>
