@@ -57,3 +57,7 @@ body::selection {
   color: white;
   background-color: var(--mainColor);
 }
+
+form>p, form>label, form>input {
+  color: black;
+}
