@@ -63,20 +63,20 @@ input {
   text-transform: uppercase;
 }
 
+label, input[type="button"] {
+  text-transform: none;
+}
+
+input.capitalize {
+  text-transform: capitalize;
+}
+
 th,
 td {
   color: black;
   font-family: sans-serif;
   font-weight: 400;
   text-align: left;
-}
-
-label {
-  text-transform: none;
-}
-
-input.capitalize {
-  text-transform: capitalize;
 }
 
 table {
