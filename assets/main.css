@@ -20,7 +20,7 @@ body {
   width: calc(100vw - var(--bodyMargin)*2 - 17px);
   border: none;
   background-color: white;
-  color: var(--mainColor);
+  /*color: var(--mainColor);*/
 }
 
 body::selection {
@@ -35,7 +35,7 @@ body::selection {
   row-gap: 0px;
   column-gap: clamp(16px, 2vw, 32px);
   text-align: center;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   margin-bottom: 32px;
 }
 
