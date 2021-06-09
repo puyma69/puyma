@@ -20,7 +20,7 @@ body {
   width: calc(100vw - var(--bodyMargin)*2 - 17px);
   border: none;
   background-color: white;
-  /*color: var(--mainColor);*/
+  color: var(--mainColor);
 }
 
 body::selection {
