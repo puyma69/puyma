@@ -2,10 +2,11 @@
   --bodyMargin: 32px;
   --mainColor: #D1B7E5;
   --redColor: #A90A2E;
+  --boldFont: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
 }
 
 @font-face {
-  font-family: 'Inter Black', sans-serif;
+  font-family: 'Inter Black';
   src: url(./inter-black.woff2);
 }
 
@@ -40,7 +41,7 @@ body::selection {
 }
 
 .f {
-  font-family: 'Inter Black', 'Segoe UI', 'SF Pro Display', sans-serif;
+  font-family: var(--boldFont);
   font-size: clamp(44px, 9vw, 88px);
   margin: 0px;
   letter-spacing: 0px;
@@ -80,4 +81,8 @@ td {
 
 table {
   margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  font-family: var(--boldFont);
 }
