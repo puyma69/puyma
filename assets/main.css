@@ -61,9 +61,12 @@ body::selection {
 input {
   color: black;
   text-transform: uppercase;
+  height: 22.6px;
+  padding: 1px;
 }
 
-label, input[type="button"] {
+label,
+input[type="button"] {
   text-transform: none;
 }
 
